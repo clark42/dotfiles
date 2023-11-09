@@ -1,0 +1,21 @@
+[user]
+	email = jean@akiros.io
+	name = Jean 'clark' EYMERT
+[pull]
+	rebase = true
+[pager]
+    diff = delta
+    log = delta
+    reflog = delta
+    show = delta
+
+[delta]
+    plus-style = "syntax #012800"
+    minus-style = "syntax #340001"
+    syntax-theme = Solarized (dark)
+    navigate = true
+
+[interactive]
+    diffFilter = delta --color-only
+[init]
+	defaultBranch = main
